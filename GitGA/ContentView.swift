@@ -14,6 +14,7 @@ struct ContentView: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, Marjan!")
+            Text("Hello, From Branch feature-homeView!")
         }
         .padding()
     }
