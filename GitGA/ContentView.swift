@@ -17,6 +17,17 @@ struct ContentView: View {
             Text("Hello, From Branch feature-homeView!")
         }
         .padding()
+        VStack {
+            Image(systemName: "globe")
+                .imageScale(.large)
+                .foregroundStyle(.tint)
+            Text("Hello, Marjan!")
+            Text("Hello, Hammam")
+                .foregroundStyle(.red)
+                .font(Font.system(.title, design: .rounded))
+                .bold(true)
+        }
+        .padding()
     }
 }
 
