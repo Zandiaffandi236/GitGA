@@ -15,7 +15,7 @@ struct LoginPage: View {
                 .imageScale(.large)
                 .foregroundStyle(.tint)
             Text("Hello, Marjan!")
-            Text("Hello, Hammam Login 456")
+            Text("Hello, Hammam Login 789")
                 .foregroundStyle(.red)
                 .font(Font.system(.title, design: .rounded))
                 .bold(true)
